@@ -1,0 +1,114 @@
+.customToggle {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  gap: 20px !important;
+  -ms-align-items: center;
+  align-items: center;
+  background-color: #f1f1f1;
+  border-radius: 100px;
+  justify-content: center;
+  max-width: 360px;
+}
+
+.customToggle p {
+  white-space: nowrap;
+  line-height: normal;
+  text-transform: capitalize;
+  width: 160x;
+
+  font-size: 22px;
+  margin: 0;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.customToggle span.active p {
+  color: #fff;
+}
+
+.customToggle .bg {
+  position: absolute;
+  height: 36px;
+  left: 50%;
+  border-radius: 100px;
+  background-color: #036a85;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+
+.customToggle .bg.activeIndex1 {
+  left: 0px;
+  width: 170px;
+  margin-right: 20px;
+}
+
+.customToggle .bg.activeIndex2 {
+  left: 172px;
+  width: 190px;
+}
+
+.customToggle .toggleIn {
+  border-radius: 100px;
+  padding: 0 9px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.customToggle span {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  height: 36px;
+  line-height: 26px;
+  font-size: 14px;
+  margin: 0;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000;
+  position: relative;
+  z-index: 2;
+}
+
+.selectColor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 899px) {
+  .customToggle .bg {
+    height: 40px;
+  }
+
+  .customToggle .bg.activeIndex1 {
+    left: 0px;
+    width: 140px;
+  }
+
+  .customToggle .bg.activeIndex2 {
+    left: 117px;
+    width: 140px;
+  }
+
+  .customToggle {
+    height: 40px;
+  }
+  .customToggle p {
+    width: 120px;
+    font-size: 16px;
+  }
+}

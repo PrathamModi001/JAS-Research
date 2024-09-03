@@ -1,0 +1,92 @@
+{
+  "name": "materio-mui-react-nextjs-admin-template-free",
+  "description": "Most Powerful & Comprehensive Free MUI React NextJS Admin Dashboard Template built for developers! 🚀",
+  "license": "MIT",
+  "version": "1.0.0",
+  "author": {
+    "name": "ThemeSelection",
+    "url": "https://themeselection.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/themeselection/materio-mui-react-nextjs-admin-template-free/issues"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/themeselection/materio-mui-react-nextjs-admin-template-free.git"
+  },
+  "homepage": "https://themeselection.com/products/materio-free-mui-react-nextjs-admin-template/",
+  "keywords": [
+    "react",
+    "javascript",
+    "admin",
+    "dashboard",
+    "material-design",
+    "nextjs",
+    "material-ui",
+    "admin-dashboard",
+    "free",
+    "mui",
+    "admin-template",
+    "admin-panel",
+    "freebies",
+    "nextjs-template",
+    "react-dashboard",
+    "themeselection"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "lint": "eslint --fix \"src/**/*.{js,jsx}\"",
+    "format": "prettier --write \"src/**/*.{js,jsx}\""
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.6.0",
+    "@emotion/react": "^11.11.4",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.11.5",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.15.10",
+    "@mui/lab": "^5.0.0-alpha.70",
+    "@mui/material": "^5.15.15",
+    "@popperjs/core": "^2.11.2",
+    "@reduxjs/toolkit": "^2.2.0",
+    "apexcharts-clevision": "3.28.5",
+    "axios": "^1.6.7",
+    "babel-eslint": "^10.1.0",
+    "classnames": "^2.5.1",
+    "clsx": "^1.1.1",
+    "formik": "^2.4.5",
+    "material-ui-dropzone": "^3.5.0",
+    "mdi-material-ui": "^7.1.0",
+    "next": "13",
+    "notistack": "^3.0.1",
+    "nprogress": "^0.2.0",
+    "react": "^18.2.0",
+    "react-apexcharts": "^1.3.9",
+    "react-datepicker": "^4.5.0",
+    "react-dom": "^18.2.0",
+    "react-pdf": "8.0.2",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-popper": "^2.2.5",
+    "react-query": "^3.39.3",
+    "react-redux": "^9.1.0",
+    "redux": "^5.0.1",
+    "redux-persist": "^6.0.0",
+    "use-debounce": "^10.0.0",
+    "yup": "^1.3.3"
+  },
+  "devDependencies": {
+    "eslint": "<8.0.0",
+    "eslint-config-next": "13",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "next-transpile-modules": "^9.0.0",
+    "prettier": "2.5.1"
+  }
+}
